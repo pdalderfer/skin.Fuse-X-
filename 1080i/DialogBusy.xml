@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window id="136">
+
+
+    <controls>
+
+
+        <control type="group">
+            
+            <include>Dialog_Notification_Group_Small</include>
+			<visible>!Player.HasVideo</visible>
+            <visible>!Window.IsVisible(DialogNotification.xml) + !Window.IsVisible(DialogExtendedProgressBar.xml)</visible>
+            <include>Animation_Notification_Follow</include>
+            <control type="group">
+                <control type="group">
+
+					<control type="group">
+						<description>Busy animation</description>
+						<centerleft>10%</centerleft>
+						<top>0</top>
+						<width>100</width>
+						<height>100</height>
+						<animation effect="rotate" condition="true" start="0" end="360" loop="true" time="1000" center="auto">Conditional</animation>
+						<control type="image">
+							<texture colordiffuse="$VAR[ColorHighlight]">dialog/loading-spinner.png</texture>
+							<aspectratio>keep</aspectratio>
+						</control>
+						<control type="image">
+							<texture colordiffuse="$VAR[ColorHighlight2]">dialog/loading-spinner.png</texture>
+							<aspectratio>keep</aspectratio>
+							<animation effect="fade" condition="true" start="0" end="75" pulse="true" time="1000">Conditional</animation>
+						</control>
+					</control>					
+	            </control>
+                <control type="label">
+					<left>120</left>
+					<width>400</width>
+                    <label>Working</label>
+                    <include>Dialog_Notification_MainLabel</include>
+                </control>
+                <control type="label">
+					<left>120</left>
+					<width>400</width>
+                    <label>Please Wait ...</label>
+                    <textcolor>$VAR[ColorHighlight]</textcolor>
+                    <include>Dialog_Notification_SubLabel</include>
+                </control>
+            </control>
+        </control>
+
+    </controls>
+
+</window>
