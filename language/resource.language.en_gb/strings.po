@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Horizon
-# Addon id: skin.horizon
-# Addon Provider: jurialmunkey
+# Addon Name: Fuse(X)
+# Addon id: skin.fuse.(x)
+# Addon Provider: jurialmunkey,ic3dragon
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
