@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Fuse(X)
+# Addon Name: fuse(x)
 # Addon id: skin.fuse.(x)
-# Addon Provider: jurialmunkey,ic3dragon
+# Addon Provider: ic3dragon
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
