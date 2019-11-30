@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.fuse.x" version="1.0.5" name="Fuse(X)" provider-name="jurialmunkey, icedragon">
+<addon id="skin.fuse.x" version="1.0.5" name="[COLOR aqua]Fuse[/COLOR][COLOR lime](X)[/COLOR]" provider-name="ic3dragon">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.skinshortcuts" version="0.4.0"/>
