@@ -622,7 +622,7 @@
                     <aligny>center</aligny>
                     <font>font_systeminfo_skinname</font>
                     <textcolor>main_fg_70</textcolor>
-                    <label fallback="N/A">(fuse) [COLOR=$VAR[ColorHighlight]]neue[/COLOR] </label>
+                    <label fallback="N/A">Fuse [COLOR=$VAR[ColorHighlight]]X[/COLOR] </label>
                 </control>
                 <control type="label">
                     <bottom>0</bottom>
@@ -633,7 +633,7 @@
                     <aligny>center</aligny>
                     <font>font_systeminfo_skinversion</font>
                     <textcolor>main_fg_30</textcolor>
-                    <label fallback="N/A">$INFO[System.AddonVersion(skin.fuse.neue)]</label>
+                    <label fallback="N/A">$INFO[System.AddonVersion(skin.fusex)]</label>
                 </control>
                 <control type="grouplist">
                     <top>20</top>

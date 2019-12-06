@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="12">
-    <defaultcontrol always="true">3</defaultcontrol>
-    <include>Defs_SettingsOnload</include>
+<!--     <defaultcontrol always="true">300</defaultcontrol>
+    <include>Defs_SettingsOnload</include> -->
     <onunload condition="!Skin.HasSetting(startup.init)">Skin.SetBool(startup.init)</onunload>
     <controls>
 
+	
+	
+	
+	
         <include>Global_Background_Settings</include>
 
         <!-- GroupList -->
         <control type="group">
-            <include>Dialog_Settings_Panel</include>
+<!--             <include>Dialog_Settings_Panel</include>
+ -->        <control type="image">
+            <top>0</top>
+            <height>1080</height>
+            <width>1920</width>
 
+            <texture border="16" colordiffuse="panel_bg">common/rounded-shadow8.png</texture>
+
+        </control>
             <control type="group">
                 <left>16</left>
                 <right>16</right>
