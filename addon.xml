@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addon version="1.0.5" provider-name="Ic3Dragon5110" name="FuseX" id="skin.fusex">
+<?xml version="1.0" encoding="UTF-8"?>
+<addon provider-name="Ic3Dragon5110" name="FuseX" version="1.0.5" id="skin.fusex">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.extendedinfo" version="3.0.0"/>
